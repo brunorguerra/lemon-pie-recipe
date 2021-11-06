@@ -1,0 +1,25 @@
+:root {
+    --body: #f0f0f0;
+    --white: #ffffff;
+    --green: #00b542;
+    --black: #121212;
+    --gray: #36363C;
+}
+html {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 4rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--body);
+    font-family: 'Lato', sans-serif;
+}
